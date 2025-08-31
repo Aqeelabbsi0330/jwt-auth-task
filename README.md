@@ -47,4 +47,6 @@ Route::post('/refresh-token', [AuthController::class, 'refreshToken']);
 Route::middleware(['jwt'])->group(function () {
     Route::get('/profile', [ProfileController::class, 'index']);
 });
->>>>>>> 1d9fb9e9637d18a0f04a9b595b54e7200404b26b
+>>>>>>> 1d9fb9e9637d18a0f04a9b595b54e7200404b26
+NO live demo becuase of unfimilarity with free platforms 
+
